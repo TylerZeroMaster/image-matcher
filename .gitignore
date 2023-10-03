@@ -1,0 +1,11 @@
+.pdm.toml
+**results*
+**__
+**images
+**images.*
+**.ipynb
+backup
+bak
+paths.txt
+similarities.csv.gz
+arrays.npy

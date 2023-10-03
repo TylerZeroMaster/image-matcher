@@ -1,0 +1,21 @@
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=23.9.1",
+]
+
+[project]
+name = "tfidf_image_matcher"
+version = "0.0.1"
+description = "Group images from TEST_IMAGES by tfidf cosine similarity at IMAGE_SIZE"
+authors = [
+    {name = "Tyler Nullmeier", email = "Tylerzeromaster@gmail.com"},
+]
+dependencies = [
+    "Pillow>=10.0.1",
+    "numpy>=1.25.2",
+    "click>=8.1.7",
+    "tqdm>=4.66.1",
+]
+requires-python = ">=3.10"
+license = {text = "MIT"}
